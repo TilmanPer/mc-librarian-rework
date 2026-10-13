@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "librarian_rework",
+	"version": "${version}",
+	"name": "Librarian Rework",
+	"description": "Librarians no longer sell random enchanted books. Teach them books instead.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.example.librarianrework.LibrarianRework"]
+	},
+	"mixins": ["librarian_rework.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

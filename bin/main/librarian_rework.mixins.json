@@ -1,0 +1,8 @@
+{
+	"required": true,
+	"package": "com.example.librarianrework.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["VillagerMixin"],
+	"client": ["client.MerchantScreenMixin"],
+	"injectors": { "defaultRequire": 1 }
+}
